@@ -1,5 +1,5 @@
 {
-  "name": "jamiefifty/tmhOAuth",
+  "name": "jamiefifty/tmhoauth",
   "description": "An OAuth library written in PHP by @themattharris",
   "license": "Apache-2.0",
   "authors": [
@@ -14,7 +14,7 @@
     "oauth"
   ],
   "support": {
-    "issues": "https://github.com/jamiefifty/tmhOAuth/issues"
+    "issues": "https://github.com/jamiefifty/tmhoauth/issues"
   },
   "require": {
     "php": ">=5.3.0",
