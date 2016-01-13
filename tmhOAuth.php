@@ -14,7 +14,7 @@
 defined('__DIR__') or define('__DIR__', dirname(__FILE__));
 
 class tmhOAuth {
-  const VERSION = '0.8.6';
+  const VERSION = '0.8.7';
   var $response = array();
 
   /**
@@ -80,6 +80,7 @@ class tmhOAuth {
         // support for proxy servers
         'curl_proxy'                 => false, // really you don't want to use this if you are using streaming
         'curl_proxyuserpwd'          => false, // format username:password for proxy, if required
+        'curl_proxy_port'            => false,
         'curl_encoding'              => '',    // leave blank for all supported formats, else use gzip, deflate, identity etc
 
         // streaming API configuration
