@@ -800,6 +800,7 @@ class tmhOAuth {
 
       CURLOPT_FOLLOWLOCATION => $this->config['curl_followlocation'],
       CURLOPT_PROXY          => $this->config['curl_proxy'],
+      CURLOPT_PROXY          => $this->config['curl_proxy_port'],
       CURLOPT_ENCODING       => $this->config['curl_encoding'],
       CURLOPT_URL            => $this->request_settings['url'],
       // process the headers
