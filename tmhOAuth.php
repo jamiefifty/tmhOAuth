@@ -14,7 +14,7 @@
 defined('__DIR__') or define('__DIR__', dirname(__FILE__));
 
 class tmhOAuth {
-  const VERSION = '0.8.5';
+  const VERSION = '0.8.6';
   var $response = array();
 
   /**
@@ -800,7 +800,7 @@ class tmhOAuth {
 
       CURLOPT_FOLLOWLOCATION => $this->config['curl_followlocation'],
       CURLOPT_PROXY          => $this->config['curl_proxy'],
-      CURLOPT_PROXY          => $this->config['curl_proxy_port'],
+      CURLOPT_PROXYPORT      => $this->config['curl_proxy_port'],
       CURLOPT_ENCODING       => $this->config['curl_encoding'],
       CURLOPT_URL            => $this->request_settings['url'],
       // process the headers
